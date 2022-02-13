@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
 })
 
 const DB_USER = 'fabio'
-const DB_PASS = encodeURIComponent('08042102')
+const DB_PASS = encodeURIComponent('********')
 mongoose.connect(
     `mongodb+srv://${DB_USER}:${DB_PASS}@apicluster.7rljh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
     )
